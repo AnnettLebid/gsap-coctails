@@ -1,13 +1,30 @@
 {
-  "name": "vite-project",
+  "name": "gsap-cocktail-landing",
+  "version": "1.0.0",
+  "description": "An interactive cocktail menu landing page with GSAP scroll animations",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "author": "Anna Lebed",
+  "keywords": [
+    "gsap",
+    "react",
+    "vite",
+    "typescript",
+    "landing-page",
+    "cocktails",
+    "scroll-animations"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "preview": "vite preview",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "lint:fix": "eslint . --fix",
+    "type-check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
